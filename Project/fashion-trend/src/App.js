@@ -5,7 +5,7 @@ import React from 'react'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <title> className="App-header"
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -16,9 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactttttt
         </a>
-      </header>
+      </title>
     </div>
   );
 }
