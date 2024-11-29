@@ -1,0 +1,14 @@
+.about {
+    padding: 30px;
+    background-color: #d1c4e9;
+    color: black;
+  }
+  
+  .about h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .about p {
+    margin-top: 10px;
+  }

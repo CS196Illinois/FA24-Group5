@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import ProductCard from './components/ProductCard.js';
 import './App.css';
-import React from 'react'
+
 
 function App() {
+  const products = [
+    { name: 'Shirts', image: '/images/shirt.jpg' },
+    { name: 'Pants', image: '/images/pants.jpg' },
+    { name: 'Dresses', image: '/images/dress.jpg' },
+    { name: 'Shoes', image: '/images/shoes.jpg' },
+    { name: 'Accessories', image: '/images/accessories.jpg' },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reactttttt
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <About />
+      <div className="product-grid">
+        {products.map((product, index) => (
+          <ProductCard key={index} name={product.name} image={product.image} />
+        ))}
+      </div>
     </div>
   );
 }
