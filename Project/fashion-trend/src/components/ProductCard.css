@@ -16,3 +16,11 @@
   .product-card h3 {
     margin-top: 10px;
   }
+  .product-grid {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    flex-wrap: wrap; /* Allows items to wrap onto new lines if needed */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }

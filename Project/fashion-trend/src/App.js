@@ -9,15 +9,21 @@ import DressesPage from './components/dresses';
 import ShoesPage from './components/shoes';
 import AccessoriesPage from './components/accessories';
 import predictArticleType  from '/Users/anshimathur/Desktop/FA24-Group5/Project/fashion-trend/src/services/predictArticleType.js'; // Import the function
-
 import './App.css';
 
+//import images
+import shirtImage from './images/download.jpg';
+import pantImage from './images/download-1.jpg';
+import dressesImage from './images/download-2.jpg';
+import shoeImage from './images/download-3.jpg';
+import AccessoriesImage from './images/download-4.jpg';
+
 const products = [
-  { name: 'Shirts', image: '/images/shirt.jpg', link: '/shirts' },
-  { name: 'Pants', image: '/images/pants.jpg', link: '/pants' },
-  { name: 'Dresses', image: '/images/dress.jpg', link: '/dresses' },
-  { name: 'Shoes', image: '/images/shoes.jpg', link: '/shoes' },
-  { name: 'Accessories', image: '/images/accessories.jpg', link: '/accessories' },
+  { name: 'Shirts', image: shirtImage, link: '/shirts' },
+  { name: 'Pants', image: pantImage, link: '/pants' },
+  { name: 'Dresses', image: dressesImage, link: '/dresses' },
+  { name: 'Shoes', image: shoeImage, link: '/shoes' },
+  { name: 'Accessories', image: AccessoriesImage, link: '/accessories' },
 ];
 
 function App() {

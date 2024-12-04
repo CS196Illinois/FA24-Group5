@@ -6,10 +6,7 @@ function Header() {
     <header className="header">
       <div className="logo">🖤</div>
       <nav>
-        <a href="#sources">Sources</a>
-        <a href="#archives">Archives</a>
-        <a href="#about">About</a>
-        <button className="search-btn">Search Products</button>
+        <a href="/">Home</a>
       </nav>
     </header>
   );
