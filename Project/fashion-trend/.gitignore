@@ -21,4 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 *.pkl
+=======
+>>>>>>> 6822d8a7770ea5e3209d3fb12f968940d4082c9a
