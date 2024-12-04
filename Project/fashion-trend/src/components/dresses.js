@@ -17,7 +17,7 @@ function Dresses({ predictArticleType }) {
 
   return (
     <div className="dresses-page">
-      <h1>👕 dresses</h1>
+      <h1>👗 dresses</h1>
       <p>Predict article types using our AI model!</p>
       
       <form onSubmit={handlePredict}>
